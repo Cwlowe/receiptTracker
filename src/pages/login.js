@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 
-export default function Home() {
+export default function Login() {
   return (
     <div className={styles.container}>
       <Head>
@@ -11,7 +11,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-          
+          <div>Login Page</div>
       </main>
     </div>
   )
